@@ -49,8 +49,7 @@ body{background: #ffc93c;position: relative;}
 
 .container .card img
 {
-    padding: 15px;
-    background-color: #a2d5f2;
+    background-color: #07689f;
     -webkit-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
 }
