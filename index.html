@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- STYLE -->
+        <link rel="stylesheet" href="style/style.css">
+
+        <!-- TITLE -->
+        <title>Memory Game</title>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    </head>
+    <body>
+       <div class="settings">
+            <button class="start" onclick="start()">Start</button>
+            <span class="losses">Mistakes : 0</span>
+            </div>
+        
+        <div class="container">
+           
+           <div class="winStats">Congratulations</div>
+           <div class="loseStats">Sorry</div>
+           
+           
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           <div class="card" onclick="game(this)"><div class="front"></div></div>
+           
+           
+            
+        </div>
+        
+        <audio src="audios/win.mp3" class="win"></audio>
+        <audio src="audios/lose.mp3" class="lose"></audio>
+        <audio src="audios/bigLose.mp3" class="bigLose"></audio>
+        <audio src="audios/bigWin.mp3" class="bigWin"></audio>
+        
+        <script src="scripts/script.js"></script>
+        
+    </body>
+</html>
